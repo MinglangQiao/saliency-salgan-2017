@@ -210,6 +210,8 @@ https://github.com/imatge-upc/saliency-salgan-2017/issues/29
 
 http://lasagne.readthedocs.io/en/latest/user/installation.html
 
+first install theaon
+
 
 
 
