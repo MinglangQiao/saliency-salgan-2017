@@ -212,6 +212,10 @@ http://lasagne.readthedocs.io/en/latest/user/installation.html
 
 first install theaon
 
+https://github.com/Lasagne/Lasagne/wiki/From-Zero-to-Lasagne-on-Ubuntu-14.04
+
+
+
 
 
 
