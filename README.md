@@ -191,3 +191,45 @@ Javascript code to enable Google Analytics
   ga('send', 'pageview');
 
 </script>
+
+
+## install issues
+ImportError: cannot import name 'IntEnum'
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-245f_mj2/enum/
+
+#### solve: use the python2 environment
+
+but has another issue:
+
+Could not find a version that satisfies the requirement Lasagne==0.2.dev1
+
+#### solve: 
+
+https://github.com/imatge-upc/saliency-salgan-2017/issues/29
+
+
+http://lasagne.readthedocs.io/en/latest/user/installation.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
