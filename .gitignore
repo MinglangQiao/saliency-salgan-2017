@@ -1,2 +1,7 @@
 *.npz
 *.pkl
+*.pyc
+*.png
+*.jpg
+*.jpeg
+
