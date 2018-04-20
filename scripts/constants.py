@@ -17,19 +17,23 @@ VAL_DATA_DIR = '/home/users/jpang/scratch-local/salicon_data/320x240/fix_validat
 TEST_DATA_DIR = '/home/users/jpang/scratch-local/salicon_data/256x192/testData.pickle'
 
 # Path to vgg16 pre-trained weights
-<<<<<<< HEAD:constants.py
+
 PATH_TO_VGG16_WEIGHTS = '/scratch/local/jpang/vgg16.pkl'
 PATH_TO_RESNET50_WEIGHTS = '/scratch/local/jpang/resnet50.pkl'
 PATH_TO_FCN_WEIGHTS = '/home/users/jpang/scratch-local/ConvVGG_FCN.pkl'
 =======
 PATH_TO_VGG16_WEIGHTS = '/imatge/jpan/saliency-salgan-2017/vgg16.pkl'
->>>>>>> 8010ff90b1174a82569eb562fcd40bddb0c98cbb:scripts/constants.py
+
 
 # Input image and saliency map size
-INPUT_SIZE = (320, 240)
+INPUT_SIZE = (256, 192)
 
 # Directory to keep snapshots
+
 # DIR_TO_SAVE = 'test'
 # DIR_TO_SAVE = 'resnet50'
 # DIR_TO_SAVE = 'resnet50_gan'
 DIR_TO_SAVE = 'fcn_gan'
+=======
+DIR_TO_SAVE = 'test'
+
