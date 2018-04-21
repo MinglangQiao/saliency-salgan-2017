@@ -10,4 +10,5 @@ https://www.zhihu.com/question/23765351
 
 #### 4. MSE aim at maximizing the PSNR?
 
-#### 5. binary cross entropies (BCE)的定义？
+#### 5. 交叉熵， binary cross entropies (BCE)的定义？
+[这个讲得好](https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/chap3/c3s1.html)
