@@ -136,6 +136,17 @@ In order to run the test script to predict saliency maps, you can run the follow
 ```
 THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1,optimizer_including=cudnn python 03-predict.py
 ```
+
+if occur this problem
+```
+ERROR: Not using GPU. Initialisation of device gpu failed
+```
+
+
+
+
+
+
 With the provided model weights you should obtain the follwing result:
 
 | ![Image Stimuli]  | ![Saliency Map]  |
@@ -184,6 +195,8 @@ If you have any general doubt about our work or code which may be of interest fo
 <!---
 Javascript code to enable Google Analytics
 -->
+
+直接跑03-predict就没有这个错误
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
