@@ -4,6 +4,7 @@ import cv2
 import theano
 from constants import HOME_DIR
 import lasagne
+# import imageio
 
 
 def chunks(l, n):
@@ -75,7 +76,10 @@ def predict(model, image_stimuli, num_epoch=None, name=None, path_output_maps=No
         # When we use for testing, there is no file name provided.
         cv2.imwrite('./' + path_output_maps + '/validationRandomSaliencyPred_{:04d}.png'.format(num_epoch), saliency_map)
     else:
-        cv2.imwrite(os.path.join(path_output_maps, name + '.jpg'), saliency_map)
+        save_image_path = os.path.join(path_output_maps, name + '.jpg')
+        cv2.imwrite(save_image_path, saliency_map)
+        print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> save saliency image !',
+              save_image_path, np.shape(saliency_map))
 
 
 

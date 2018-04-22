@@ -5,6 +5,8 @@ from lasagne.nonlinearities import sigmoid
 import lasagne
 import cPickle
 import vgg16
+import sys
+sys.path.append('../')
 from constants import PATH_TO_VGG16_WEIGHTS
 
 

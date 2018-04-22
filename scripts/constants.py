@@ -1,5 +1,5 @@
 # Work space directory
-HOME_DIR = '/imatge/jpan/saliency-salgan-2017/'
+HOME_DIR = './'
 
 # Path to SALICON raw data
 pathToImages = '/home/users/jpang/salicon_data/images'
@@ -18,11 +18,11 @@ TEST_DATA_DIR = '/home/users/jpang/scratch-local/salicon_data/256x192/testData.p
 
 # Path to vgg16 pre-trained weights
 
-PATH_TO_VGG16_WEIGHTS = '/scratch/local/jpang/vgg16.pkl'
+# PATH_TO_VGG16_WEIGHTS = '/scratch/local/jpang/vgg16.pkl'
 PATH_TO_RESNET50_WEIGHTS = '/scratch/local/jpang/resnet50.pkl'
 PATH_TO_FCN_WEIGHTS = '/home/users/jpang/scratch-local/ConvVGG_FCN.pkl'
-=======
-PATH_TO_VGG16_WEIGHTS = '/imatge/jpan/saliency-salgan-2017/vgg16.pkl'
+# =======
+PATH_TO_VGG16_WEIGHTS = './models/vgg16.pkl'
 
 
 # Input image and saliency map size
@@ -34,6 +34,6 @@ INPUT_SIZE = (256, 192)
 # DIR_TO_SAVE = 'resnet50'
 # DIR_TO_SAVE = 'resnet50_gan'
 DIR_TO_SAVE = 'fcn_gan'
-=======
+# =======
 DIR_TO_SAVE = 'test'
 
